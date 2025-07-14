@@ -13,11 +13,11 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: process.env.SESSION_ID || "malvin~ZrsyASQA#PDF2riJbTuWWtK7kRXNDHd5ZyIhajd_CUzGQm4hJ87M", // Your bot's session ID (keep secure)
+  SESSION_ID: process.env.SESSION_ID || "malvin~xvlXWAgD#V1b5SxOg0Zh_7nZ2svL4seBr2Lpy36mTRfVZKtgySIk", // Your bot's session ID (keep secure)
   PREFIX: getConfig("PREFIX") || ".", // Command prefix (e.g., ., /, !, *)
   CHATBOT: getConfig("CHATBOT") || "on", // Chatbot mode: on/off
   BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ᴍᴀʟᴠɪɴ-xᴅ", // Bot display name
-  MODE: getConfig("MODE") || process.env.MODE || "private", // Bot mode: public/private/group/inbox
+  MODE: getConfig("MODE") || process.env.MODE || "public", // Bot mode: public/private/group/inbox
   REPO: process.env.REPO || "https://github.com/XdKing2/MALVIN-XD", // Bot GitHub repo dont change this❗️
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys", // Baileys version
 
